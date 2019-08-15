@@ -1,6 +1,6 @@
 sudo yum install zsh
 sudo chsh -s /bin/zsh $1
-sudo yum install wget git
+sudo yum install wget
 sudo wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
 source ~/.zshrc
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
