@@ -1,0 +1,15 @@
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir history virtualenv newline aws ip public_ip ssh status)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(context)
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+ZSH_THEME="powerlevel9k/powerlevel9k"
+
+plugins=(
+  git
+  zsh-autosuggestions
+  zsh-256color
+)
+
+source $ZSH/oh-my-zsh.sh
+
+eval $(ssh-agent)
