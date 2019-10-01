@@ -10,8 +10,11 @@ plugins=(
   git
   zsh-autosuggestions
   zsh-256color
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ./zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 eval $(ssh-agent)
